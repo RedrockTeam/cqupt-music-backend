@@ -12,14 +12,14 @@ export interface RouterFormat {
   router: KoaRouter
 }
 
-const routerList: RouterFormat[] = [];
+const routerList: RouterFormat[] = []
 
 const readRouter: (list: RouterFormat[]) => Promise<RouterFormat[]> = async list => {
   const routerFiles = fs.readdirSync(__dirname)
-  for (let i = 0, length = routerFiles.length; i < length; i++) {
+  let length = routerFiles.length
+  for (let i = 0; i < length; i++) {
     let el = routerFiles[i]
-    if (el === 'index.ts')
-      continue
+    if (el === 'index.ts') continue
     list.push((await import(path.resolve(__dirname, el))).default)
   }
   return list
