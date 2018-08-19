@@ -1,7 +1,7 @@
 {
-  "name": "voucher-helper-backend",
+  "name": "cqupt-music-backend",
   "version": "1.0.0",
-  "description": "电子凭证助手-后端代码",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
