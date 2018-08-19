@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoderMing/voucher-helper-backend.git"
+    "url": "git+https://github.com/RedrockTeam/cqupt-music-backend.git"
   },
   "author": "coderming",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CoderMing/voucher-helper-backend/issues"
+    "url": "https://github.com/RedrockTeam/cqupt-music-backend/issues"
   },
-  "homepage": "https://github.com/CoderMing/voucher-helper-backend#readme",
+  "homepage": "https://github.com/RedrockTeam/cqupt-music-backend#readme",
   "dependencies": {
     "@types/koa": "^2.0.46",
     "@types/koa-bodyparser": "^5.0.1",
