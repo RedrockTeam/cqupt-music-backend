@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.ts",
     "start": "ts-node app.ts",
-    "commitmsg": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md && commitlint -E GIT_PARAMS"
+    "precommit": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+    "commitmsg": "commitlint -E GIT_PARAMS"
   },
   "repository": {
     "type": "git",
