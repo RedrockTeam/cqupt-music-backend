@@ -35,7 +35,6 @@
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
-    "conventional-changelog": "^2.0.1",
     "conventional-changelog-cli": "^2.0.1",
     "husky": "^0.14.3",
     "nodemon": "^1.18.3",
