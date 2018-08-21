@@ -4,6 +4,7 @@
 
 ### Bug Fixes
 
+* add changelog file ([2780bf8](https://github.com/RedrockTeam/cqupt-music-backend/commit/2780bf8))
 * test fix ([1dab0ef](https://github.com/RedrockTeam/cqupt-music-backend/commit/1dab0ef))
 
 
