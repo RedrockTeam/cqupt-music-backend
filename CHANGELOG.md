@@ -1,5 +1,5 @@
 <a name="1.0.1"></a>
-## 1.0.1 (2018-08-22)
+## 1.0.1 (2018-12-09)
 
 
 ### Bug Fixes
@@ -9,6 +9,7 @@
 * change pre-commit hooks ([72fef11](https://github.com/RedrockTeam/cqupt-music-backend/commit/72fef11))
 * fix changelog file date ([a88ce85](https://github.com/RedrockTeam/cqupt-music-backend/commit/a88ce85))
 * test fix ([1dab0ef](https://github.com/RedrockTeam/cqupt-music-backend/commit/1dab0ef))
+* 允许中文commit message ([7631de9](https://github.com/RedrockTeam/cqupt-music-backend/commit/7631de9))
 
 
 ### Features

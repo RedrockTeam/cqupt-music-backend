@@ -7,7 +7,7 @@ const router = new KoaRouter()
 // Router Module 输出的格式
 export interface RouterFormat {
   // 监听的路由
-  path: (string | RegExp)
+  path: string | RegExp
   // Router主体
   router: KoaRouter
 }
@@ -25,8 +25,10 @@ const readRouter: (list: RouterFormat[]) => Promise<RouterFormat[]> = async list
   return list
 }
 
-readRouter(routerList).then(res => res.forEach(obj => {
-  router.use(obj.path, obj.router.routes(), obj.router.allowedMethods())
-}))
+readRouter(routerList).then(res =>
+  res.forEach(obj => {
+    router.use(obj.path, obj.router.routes(), obj.router.allowedMethods())
+  })
+)
 
 export default router
